@@ -1,0 +1,93 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "01",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-01/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "02",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-02/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "03",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/__build__/Debug/src/day-03/day03",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "04",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/__build__/Debug/src/day-04/day04",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "05",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/__build__/Debug/src/day-05/day05",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "06",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/__build__/Debug/src/day-06/day06",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "07",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-07/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "08",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-08/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "09",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-09/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "10",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-10/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "11",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/day-11/main.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
